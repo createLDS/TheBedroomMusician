@@ -1,0 +1,207 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<title>The Bedroom Musician - Contact</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Hammersmith+One');
+    
+    body {
+        background-color: #303030;
+        font-family: 'Exo 2', sans-serif;
+    }  
+    
+    a {
+       color: #dcbb5b;  
+       text-decoration: none;
+    }
+	
+    /* Navigation */
+    
+    ul {
+        list-style-type: none;  
+        margin: 0;
+        padding: 14;
+        overflow: hidden;
+    }
+    
+    #nav {
+        font-family: 'Hammersmith One', sans-serif;
+        text-align:center;
+        background-color: #4d4d9a;
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+
+    }
+    #nav ul {
+        display:inline-block;
+        list-style:none;
+    }
+
+    li a:hover {
+        background-color: #dcbb5b;
+        color: #303030;
+    }   
+    
+    #nav li {
+         display:inline;  
+    }
+
+    #nav a {
+        float:left;
+        text-decoration:none; 
+        color: #efefef;
+        padding:0 30px; /* variable width */
+    }
+    
+    li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+    }
+    
+    /* Page */
+    
+    #container {
+        width: 1100px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    
+    .textbox {
+        background-color: #444444;
+        color: #efefef;
+        padding: 14px;
+        text-align: justify;
+    }
+	
+	    .imagebox {
+        padding: 14px;
+				text-align: center;
+    }
+    
+    .textheader {
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 28px;
+        color: #dcbb5b;
+    }
+	
+	    .imagetextheader {
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 34px;
+        color: #efefef;
+    }
+    
+        /* Form */
+    
+    input {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #EFEFEF;
+    border: none;
+    padding: 6px;
+    font-family: 'Exo 2', sans-serif;
+}
+    
+    
+
+    input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4d4d9a;
+    border: none;
+    color: white;
+    padding: 14px 26px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 15%;
+    font-family: 'Hammersmith One', sans-serif;
+}
+	
+	    button {
+    background-color: #4d4d9a;
+    border: none;
+    color: white;
+    padding: 14px 26px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+    font-family: 'Hammersmith One', sans-serif;
+}
+	
+	/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("images/Jamming.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+	  padding: 14px;
+}
+    
+</style>
+</head>
+<body>
+<div id="nav">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="start.html">Start</a></li>
+  <li><a href="bundles.html">Bundles</a></li>
+  <li><a href="guides.html">Guides</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+    <br><br>
+    <div id="container">
+		<div class="hero-image">
+  <div class="hero-text">
+    <font class="imagetextheader">Lorenzo de Sequera</font>
+    <br>Musician, Designer, and Gamer
+    <br><br><a href="mailto:lorenzo@zurachi.com"><button>Contact me</button></a>
+  </div>
+</div>
+		<br><br>
+    <div class="textbox">
+     <font class="textheader">Need to learn more?</font>
+        <p>I completely understand that the world of recording can be very intimidating, and that online guides may not be enough.
+        You may also have specific needs for your new recording space that aren't covered on this website. Because of this, I'm offering consultations for a very reasonable rate to anyone that needs it! To find out more about what I can offer, please use the Contact Me form below.</p>
+        <p>If you have any questions or inquiries about this, you can e-mail me at <a href="mailto:lorenzo@thisisafakeemail.com">lorenzo@thebedroommusician.com</a>.</p>
+     </div>    
+        <br><br>
+        <div class="textbox">
+        <font class="textheader">Contact Me</font>
+            <form method="post" enctype="text/plain" action="mailto:lorenzo@thisisafakeemail.com">
+            <p>Name: <input type="text" name="name" id="name" size="45"></p>
+            <p>E-mail: <input type="email" name="email" id="email" size="45"></p>
+            <p>Message: <input type="text" name="comment" size="50"></p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            </form>
+     </div>  
+			<br><br><div class="imagebox">
+		<a href="http://www.facebook.com/zurachitv"><img src="images/facebook.png" height="5%"></a>&nbsp; &nbsp;
+        <a href="http://www.twitter.com/zurachitv"><img src="images/twitter.png" height="5%"></a>&nbsp; &nbsp;
+        <a href="http://www.instagram.com/zurachitv"><img src="images/instagram.png" height="5%"></a>&nbsp; &nbsp;
+        <a href="http://zurachi.tumblr.com"><img src="images/tumblr.png" height="5%"></a>
+			</div>
+    </div>
+</body>
+</html>
